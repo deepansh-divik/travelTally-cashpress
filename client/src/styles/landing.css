@@ -1,0 +1,134 @@
+ @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+.landingNav{
+  height: 55px;
+  width: 100%;
+  background:#5BC5A7;
+  color: white;
+}
+.or-class{
+  background-color: #57C6A8;
+}
+.fixed-top{
+  position:fixed;top:0;right:0;left:0;z-index:1030
+}
+.float{
+  background-color: #57C6A8;
+  float: right;
+  position: absolute;
+  top: 10px;
+  right: 10vw;
+  
+}
+.float button{
+  padding: 5px 18px 5px 18px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.float button:focus{
+  outline: none;
+}
+.loginBtn{
+  background: #57C6A8;
+  font-size:  15px;
+  margin-right: 15px;
+}
+.SignUp{
+  background: #FF6337;
+  font-size:  15px;
+  margin-left: 15px;
+  
+}
+.float label{
+  font-size:  20px;
+}
+
+.landingNav h3{
+  font-size: 25px;
+  font-weight: normal;
+  position: absolute;
+  top: 12px;
+  left: 10vw;
+  
+}
+
+.landing-heading{
+  text-align: center;
+  margin-top: 25px; 
+}
+
+.landing-logo{
+ vertical-align: text-bottom;
+  height: 60px;
+}
+.landing-header{
+  display: inline-block;
+  font-size: 60px;
+  margin-top: 50px;
+  font-weight: normal;
+  margin-left: 10px;
+}
+.landing-desc{
+  margin-top: 5px;
+  font-size: 25px;
+  margin-bottom: 25px;
+}
+
+.landing-content i{
+  color: #57C6A8;
+}
+.landing-button{
+  float: right;
+  padding: 12px 15px 12px 15px;
+  color: white;
+  background: #57C6A8;
+  border-radius: 5px;
+  margin-top: 15px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.landing-button:focus{
+  outline: none;
+}
+
+.landing-name{
+  cursor: pointer;
+  color: white;
+  background-color: #57C6A8;
+}
+
+.landing-big {
+  height: 90vh;
+  width: auto;
+} 
+
+
+.button-container {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  margin-top: 20px; 
+}
+
+.image-container {
+  flex: 3;
+  text-align: center;
+  margin-right: 10px;
+  margin-left: 300px;
+}
+
+.button-wrapper {
+  flex: 4;
+  text-align: center; 
+  margin-right: 100px;
+}
+
+.button-center-1{
+  text-align: center; 
+  margin-right: 150px;
+}
